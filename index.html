@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Overlock:700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="web.css">
+	<link href='http://fonts.googleapis.com/css?family=Khula' rel='stylesheet' type='text/css'>
+
+	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"> </script>
+
+	<script type="text/javascript">
+		jQuery(document).ready(function() {
+			var duration = 500; 
+			var offset = 400; 
+			jQuery('.back-to-top').click(function(event){
+				event.preventDefault();
+				jQuery('html, body').animate({scrollTop: 0}, duration);
+				return false;
+
+			})
+
+			jQuery(window).scroll(function() {
+				if (jQuery(this).scrollTop() > offset) {
+					jQuery('.back-to-top').fadeIn(duration);
+				} else {
+					jQuery('.back-to-top').fadeOut(duration);
+				}
+			})
+		});
+
+	</script>
+
+</head>
+<body>
+
+<!-- navigation bar -->
+<nav>
+	<ul>
+		<li><a href="#contact"> contact </a></li>
+		<li><a href="blog.html"> blog </a></li>
+		<li><a href="#link"> connect </a></li>
+		<li><a href="portfolio.html"> portfolio </a></li>
+		<li><a href="#aboutme"> about </a></li>
+		<li><a href="#" class="back-to-top" style="display:none"> back-to-top </a></li>
+		
+	</ul>
+</nav>
+
+
+<!-- links -->
+
+
+
+
+
+<div id="link" class="links">
+
+<h2 style = "text-align: center; color: #FFFFFF"> Connect with Fred. </h2>
+
+<ul>
+
+
+	<li> <a href = https://github.com/whatid target = "_blank"> <b>github</b> </a> </li>
+	<li> <a href = https://www.linkedin.com/in/fredwirjo target = "_blank"><b> linkedin </b></a> </li>
+	<li> <a href = https://www.facebook.com/ target = "_blank"><b> facebook </b></a> </li>
+	<li> <a href = https://www.facebook.com/ target = "_blank"><b> youtube </b></a> </li>
+
+</ul>	
+
+</div>
+
+<!-- contact -->
+<p>
+business inquiries 
+mobile app development / troubleshooting / start-up partner / systems programming
+email me at : onegbfred@gmail.com
+
+</p>
+
+<div id="aboutme">
+
+<h2 style="text-align:center" >About</h2>
+
+<p>
+
+I'm an undergraduate computer engineering student at the University of Illinois at Urbana-Champaign. 
+Read on to know more about me, check out my projects, and reach me on social networks!
+
+<br>
+
+A few things about me
+
+ECE411 - Computer Organization and Design 
+ECE391 - Computer Systems Engineering
+ECE425 - Distributed Systems
+ECE460 - Computer Security 
+
+
+</p>
+
+</div>
+
+<div id="contact">
+
+<h3> Contact Me </h3>
+
+Email Encryption / Signing
+
+
+
+
+
+</div>
+
+<div>
+<pre>
+Influence: the psychology of persuasion
+
+Notes: 
+
+Chapter 1 Key Takeaways: 
+
+The contrast principle
+Automatic Behavior in Humans 
+- ex. expensive == good 
+- xerox experiment w/ reason, "because"
+- car dealerships = negotiating car price, then proposing car features that seem trivial relative to the price of the car itself. 
+
+
+Chapter 2: Recriprocation 
+- wow I have first hand experience this and I was the victim. Fuck that guy, that's not happening again bruh. The books calls this an "uninvited debt", where someone who chooses to exploit the reciprocity rule can choose the form of the initial favor, as well as the form of the return favor. 
+- using uninvited gifts to produce feelings of obligation..
+- the rule can trigger unfair exchanges
+- another consequence of the rule, however, is an obligation to make a concession to someone who has made a concession to us. 
+
+
+</pre>
+</div>
+
+</body>
+</html>
